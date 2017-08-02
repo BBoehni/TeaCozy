@@ -1,3 +1,4 @@
+/*Header Section*/
 header {
   width: 100%;
   position: fixed;
@@ -26,4 +27,61 @@ nav span {
 }
 a {
   color: seashell;
+}
+/*Main Content Section*/
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+#mission {
+  height: 700px;
+  background-image: url('Resources/Pictures/img-mission-background.jpg');
+  padding-top: 70px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+div {
+  display: block;
+}
+h2, h3, h4 {
+  margin: 0;
+  padding: 1px;
+  color: seashell;
+}
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+.item {
+  padding: 5px;
+}
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
 }
