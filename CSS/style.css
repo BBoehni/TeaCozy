@@ -65,6 +65,13 @@ h2, h3, h4 {
   padding: 1px;
   color: seashell;
 }
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 #store {
   height: 700px;
   width: 1000px;
@@ -84,6 +91,7 @@ h2, h3, h4 {
   padding: 5px;
   font-weight: bold;
   text-align: center;
+  color: seashell;
 }
 #locations {
   background-image: url('Resources/Pictures/img-locations-background.jpg');
@@ -99,6 +107,13 @@ width: 1100px;
 .flex-container.locations {
   padding-top: 5px;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .location {
   opacity: 1.0;
   padding: 10px;
@@ -109,15 +124,22 @@ width: 1100px;
   flex-direction: column;
   justify-content: center;
 }
+
 p {
   color: seashell;
   display: block;
 }
 #contact {
   height: 200px;
+  padding-top: 10px;
 }
 h5 {
   display: block;
   font-size: 0.83em;
   font-weight: bold;
+  color: seashell;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
